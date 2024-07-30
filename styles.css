@@ -1,0 +1,59 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 52px;
+    text-align: center;
+    color: rgb(42, 122, 228);
+}
+
+section {
+    background: rgb(102, 2, 39);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px rgb(42, 122, 228);
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+    justify-content: center;
+}
+
+p {
+    font-size: 15px;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+}
+
+.sacramentos {
+    justify-content: center;
+    padding: 20px;
+    text-align: center
+}
+
+.imagem img {
+    opacity: 0.5;
+}
+
+.imagem img:hover {
+    opacity: 1.0;
+    border: 2px solid green;
+}
